@@ -13,7 +13,7 @@ public class User {
     private int publications = 0;
     private int subscriber = 0;
     private int subscription = 0;
-    private int likes=0;
+    private int likes=0; //not sure for this statement here, maybe will transfer to another class
 
     public User(String idUser, String name, String email, String password) {
         this.idUser= idUser;
